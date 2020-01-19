@@ -19,8 +19,6 @@ tested env:
 -ROS melodic
 -carla 0.9.7
 
-execute as part of default package carla_ego_vehicle
-as /src/park/park.py
 """
 
 import rospy
