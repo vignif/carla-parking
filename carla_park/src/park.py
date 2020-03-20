@@ -35,14 +35,13 @@ parked_locations = [carla.Transform(carla.Location(x=60.4, y=-10.62, z=0.05), ca
                     carla.Transform(carla.Location(x=47.0, y=-10.62, z=0.05), carla.Rotation(yaw=180))]
 
 class CarlaParkVehicle(object):
-"""
-class responsable of:
-    -spawning 3 vehicles of which one ego
-    -interact with ROS and carla server
-    -destroy the created objects
-    -execute the parking manoeuvre
-"""
-
+    """
+    class responsable of:
+        -spawning 3 vehicles of which one ego
+        -interact with ROS and carla server
+        -destroy the created objects
+        -execute the parking manoeuvre
+    """
     def __init__(self):
         # construct object with server connection and ros node initiation
 
