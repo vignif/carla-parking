@@ -1,6 +1,11 @@
 # carla_parking
 this package contains a ros node capable of simple rule based parking with an ego vehicle in the carla simulator v 0.9.7 and ROS melodic
 
+### example
+this gif shows the implemented routine with a time scale x5
+![](.figure/m1_comp.gif)
+
+
 ## installation
 <catkin_ws> = name of your catkin workspace
 
@@ -43,8 +48,3 @@ tested env:
 -UnrealEngine 4.22
 -ROS melodic
 -carla 0.9.7
-
-
-### example
-this gif shows the implemented routine with a time scale x5
-![](.figure/m1_comp.gif)
