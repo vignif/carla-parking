@@ -1,12 +1,12 @@
-# carla_parking
+# Carla parking with ROS
 this package contains a ros node capable of simple rule based parking with an ego vehicle in the carla simulator v 0.9.7 and ROS melodic
 
-### example
+### Example
 this gif shows the implemented routine with a time scale x5
 ![](.figure/m1_comp.gif)
 
 
-## installation
+## Installation
 <catkin_ws> = name of your catkin workspace
 
 ```cd ~/<catkin_ws>/src```
@@ -17,20 +17,20 @@ this gif shows the implemented routine with a time scale x5
 
 ```catkin_make ```
 
-## environment for running
+## Environment for running
 
 run carla with ```./CarlaUE4.sh``` as from https://carla.readthedocs.io/en/latest/start_quickstart/
 
 run carla ros bridge with
 ```roslaunch carla_ros_bridge carla_ros_bridge.launch```
 
-## running
+## Running
 
 ```source devel/setup.bash```
 
 ```rosrun carla_park park.py```
 
-### specs
+### Specs
 park.py implements a basic parking policy for autonomous cars based on geometric information
 This script spawns:
     -one ego vehicle in x=61.4, y=-7.62, z=0.05
@@ -48,3 +48,7 @@ tested env:
 -UnrealEngine 4.22
 -ROS melodic
 -carla 0.9.7
+
+
+### License
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) available at [LICENSE](LICENSE)
