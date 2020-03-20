@@ -4,20 +4,26 @@ this package contains a ros node capable of simple rule based parking with an eg
 ## installation
 <catkin_ws> = name of your catkin workspace
 
-cd ~/<catkin_ws>/src
+```cd ~/<catkin_ws>/src```
 
-git clone https://github.com/vignif/carla_parking.git
+```git clone https://github.com/vignif/carla_parking.git```
 
-cd ..
+```cd ..```
 
-catkin_make
+```catkin_make ```
 
+## environment for running
+
+run carla with ```./CarlaUE4.sh``` as from https://carla.readthedocs.io/en/latest/start_quickstart/
+
+run carla ros bridge with
+```roslaunch carla_ros_bridge carla_ros_bridge.launch```
 
 ## running
 
-source devel/setup.bash
+```source devel/setup.bash```
 
-rosrun carla_park park.py
+```rosrun carla_park park.py```
 
 ### specs
 park.py implements a basic parking policy for autonomous cars based on geometric information
@@ -38,4 +44,7 @@ tested env:
 -ROS melodic
 -carla 0.9.7
 
-![](Figure/m1_comp.gif)
+
+### example
+this gif shows the implemented routine with a time scale x5
+![](.figure/m1_comp.gif)
