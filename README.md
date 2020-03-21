@@ -1,14 +1,13 @@
 # Carla parking with ROS
-Carla is an open source simulator for autonomous driving research available at http://carla.org/
+Carla is an open source simulator for autonomous driving research available at <http://carla.org/>
 
 This package contains an implemantation of a **rule based parking motion**. It is an open-loop approach for the task, given that no information are retrieved from sensors and crashes can occur.
 
 The example spawns 2 cars in predefined positions (leaving enough space between them) and the ego vehicle is blindly controlled to fit the parking spot.
 
-### Example
+## Example
 this gif shows the implemented routine with a time scale x5
 ![](.figure/m1_comp.gif)
-
 
 ## Installation
 <catkin_ws> = name of your catkin workspace
@@ -23,7 +22,7 @@ this gif shows the implemented routine with a time scale x5
 
 ## Environment for running
 
-run carla with ```./CarlaUE4.sh``` as from https://carla.readthedocs.io/en/latest/start_quickstart/
+run carla with ```./CarlaUE4.sh``` as from <https://carla.readthedocs.io/en/latest/start_quickstart/>
 
 run carla ros bridge with
 ```roslaunch carla_ros_bridge carla_ros_bridge.launch```
@@ -48,7 +47,6 @@ tested env:
 2. UnrealEngine 4.22
 3. ROS melodic
 4. carla 0.9.7
-
 
 ### License
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) available at [LICENSE](LICENSE)

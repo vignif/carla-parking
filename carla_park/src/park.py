@@ -22,11 +22,9 @@ tested env:
 """
 
 import rospy
-from std_msgs.msg import String
 import carla
 import time
 import random
-import numpy as np
 from carla_msgs.msg import CarlaWorldInfo
 
 
@@ -43,8 +41,10 @@ class CarlaParkVehicle(object):
         -execute the parking manoeuvre
     """
     def __init__(self):
-        # construct object with server connection and ros node initiation
-
+        """
+        construct object CarlaParkVehicle with server connection and
+        ros node initiation
+        """
         rospy.init_node('park_vehicle', anonymous=True)
         client = carla.Client('localhost', 2000)
         client.set_timeout(2.0)
@@ -150,7 +150,7 @@ class CarlaParkVehicle(object):
 
 def main():
     """
-    main function
+    Main function
     """
     ego_vehicle = CarlaParkVehicle()
     try:
