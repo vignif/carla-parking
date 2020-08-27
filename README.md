@@ -50,5 +50,3 @@ tested env:
 
 ### License
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) available at [LICENSE](LICENSE)
-
-[![HitCount](http://hits.dwyl.com/vignif/carla-parking.svg)](http://hits.dwyl.com/vignif/carla-parking)
