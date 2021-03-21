@@ -48,5 +48,10 @@ tested env:
 3. ROS melodic
 4. carla 0.9.7
 
+
 ### License
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) available at [LICENSE](LICENSE)
+
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
+**[MIT license](http://opensource.org/licenses/mit-license.php)**
+- Copyright 2021 © Francesco Vigni
