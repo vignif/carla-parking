@@ -39,6 +39,9 @@ This script spawns:
     -one ego vehicle in x=61.4, y=-7.62, z=0.05
     -two vehicle inside the parking location a side of the ego vehicle respectively in x=60.4, y=-10.62, z=0.05 and x=47.0, y=-10.62, z=0.05
     -a camera attached to the ego vehicle for future sensor based parking policy
+    -Carla world set to Town 03 [carla_maps](https://carla.readthedocs.io/en/latest/core_map/#carla-maps)
+
+
 
 all the vehicles are rotated of 180' in order to be correctly in line with the street
 
