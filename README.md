@@ -36,10 +36,10 @@ run carla ros bridge with
 ### Specs
 park.py implements a basic parking policy for autonomous cars based on geometric information
 This script spawns:
-    * one ego vehicle in x=61.4, y=-7.62, z=0.05
-    * two vehicle inside the parking location a side of the ego vehicle respectively in x=60.4, y=-10.62, z=0.05 and x=47.0, y=-10.62, z=0.05
-    * a camera attached to the ego vehicle for future sensor based parking policy
-    * Carla world set to Town 03 [carla_maps](https://carla.readthedocs.io/en/latest/core_map/#carla-maps)
+* one ego vehicle in x=61.4, y=-7.62, z=0.05
+* two vehicle inside the parking location a side of the ego vehicle respectively in x=60.4, y=-10.62, z=0.05 and x=47.0, y=-10.62, z=0.05
+* a camera attached to the ego vehicle for future sensor based parking policy
+* Carla world set to Town 03 [carla_maps](https://carla.readthedocs.io/en/latest/core_map/#carla-maps)
 
 
 
