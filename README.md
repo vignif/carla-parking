@@ -1,7 +1,8 @@
 # Carla parking with ROS
 Carla is an open source simulator for autonomous driving research available at <http://carla.org/>
 
-Read more on my [https://francescovigni.com/blog/car/](blog)
+Read more on my [blog](https://francescovigni.com/blog/car/)
+
 This package contains an implemantation of a **rule based parking motion**. It is an open-loop approach for the task, given that no information are retrieved from sensors and crashes can occur.
 
 The example spawns 2 cars in predefined positions (leaving enough space between them) and the ego vehicle is blindly controlled to fit the parking spot.
