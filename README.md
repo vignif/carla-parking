@@ -3,7 +3,7 @@ Carla is an open source simulator for autonomous driving research available at <
 
 Read more on my [blog](https://francescovigni.com/blog/car/)
 
-This package contains an implemantation of a **rule based parking motion**. It is an open-loop approach for the task, given that no information are retrieved from sensors and crashes can occur.
+This package contains an implementation of a **rule based parking motion**. It is an open-loop approach for the task, given that no information are retrieved from sensors and crashes can occur.
 
 The example spawns 2 cars in predefined positions (leaving enough space between them) and the ego vehicle is blindly controlled to fit the parking spot.
 
@@ -39,13 +39,13 @@ run carla ros bridge with
 park.py implements a basic parking policy for autonomous cars based on geometric information
 This script spawns:
 * one ego vehicle in x=61.4, y=-7.62, z=0.05
-* two vehicle inside the parking location a side of the ego vehicle respectively in x=60.4, y=-10.62, z=0.05 and x=47.0, y=-10.62, z=0.05
-* a camera attached to the ego vehicle for future sensor based parking policy
+* two vehicles inside the parking location a side of the ego vehicle respectively in x=60.4, y=-10.62, z=0.05 and x=47.0, y=-10.62, z=0.05
+* a camera attached to the ego vehicle for future sensor-based parking policy
 * Carla world set to Town 03 [carla_maps](https://carla.readthedocs.io/en/latest/core_map/#carla-maps)
 
 
 
-all the vehicles are rotated of 180' in order to be correctly in line with the street
+all the vehicles are rotated 180' to be correctly in line with the street
 
 tested env:
 1. Ubuntu 18.04.3 LTS
